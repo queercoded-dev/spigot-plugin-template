@@ -47,9 +47,15 @@ Change the following files, use refactoring tools to change the package name and
       - [ ] Under `commands`, change `spigottemplate` to the name of your command.
         - [ ] Change the `description` to a description of your command.
         - [ ] Change the `usage` to an example of your command.
+  - [ ] `LICENSE`, set this to your preferred open source license
+      - Not sure what's right for you? Use [https://choosealicense.com/](https://choosealicense.com/)
 
 ### Building
 1. Run `gradlew build` in the root directory of the project.
 2. The built jar will be in `build/libs`.
 
 This template isn't a comprehensive guide to making a plugin, but it can show you the basics of how to make a plugin.
+
+### License
+This template is licensed under Creative Commons Zero, this means the code is essentially in the public domain.  
+If you don't want your plugin to be licensed under CC0 too, you should remove this file from your repo for clarity.  
